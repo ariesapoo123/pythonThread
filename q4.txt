@@ -3,7 +3,7 @@ import math
 
 class fac(Thread):
     def run(self):
-        i=int(input("enter the no whos factorial you want to find"))
+        i=int(input("enter the no whose factorial you want to find"))
         print(math.factorial(i))
 
 
@@ -14,5 +14,5 @@ t.start()
 output
 
 
-enter the no whos factorial you want to find 6
+enter the no whose factorial you want to find 6
 720
