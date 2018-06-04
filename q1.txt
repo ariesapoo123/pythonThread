@@ -1,0 +1,20 @@
+from threading import *
+import time
+
+class MyThread(Thread):
+    def run(self):
+        print('Child executing thread: ', current_thread().getName())
+            
+t = MyThread()
+time.sleep(5)
+t.start()
+
+print('Main executing thread: ', current_thread().getName())
+
+
+output
+
+
+
+Child executing thread: Thread-1
+Main executing thread: MainThread

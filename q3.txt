@@ -1,0 +1,25 @@
+from threading import *
+import time
+
+
+class Li(Thread):
+    def run(self):
+        for i in list:
+            print(i)
+            time.sleep(2*(i))
+
+
+list=[1,3,6,4,8]
+
+t=Li()
+t.start()
+
+
+output
+
+
+1
+3
+6
+4
+8

@@ -1,0 +1,18 @@
+from threading import *
+import math
+
+class fac(Thread):
+    def run(self):
+        i=int(input("enter the no whos factorial you want to find"))
+        print(math.factorial(i))
+
+
+t=fac()
+t.start()
+
+
+output
+
+
+enter the no whos factorial you want to find 6
+720
